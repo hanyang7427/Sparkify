@@ -11,3 +11,4 @@ spark v2.4.5
 - Sparkify-zh.ipynb 包含数据探索，模型训练，模型调优等
 - Sparkify-zh.html  Sparkify-zh.ipynb的html版本
 
+博客地址：https://www.jianshu.com/p/984b1181c6d9
