@@ -29,7 +29,6 @@ jupyter notebook Sparkify-zh.ipynb
 #### 数据清洗
 数据的缺失值比率，如下
 ![alt text](https://github.com/hanyang7427/Sparkify/blob/master/img/null_ratio.jpg)
-
 当用户在没有听任何歌曲的状态时，artist和length和song是null，由于后期null的数量作为了特征，这不分没有处理。另外一方面，用户如果是游客，不会存在流失问题，所以将游客用户删除。
 
 #### 数据探索
