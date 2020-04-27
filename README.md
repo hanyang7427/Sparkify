@@ -29,18 +29,25 @@ jupyter notebook Sparkify-zh.ipynb
 #### 数据清洗
 数据的缺失值比率，如下
 ![alt text](https://github.com/hanyang7427/Sparkify/blob/master/img/null_ratio.jpg)
+
+
 当用户在没有听任何歌曲的状态时，artist和length和song是null，由于后期null的数量作为了特征，这不分没有处理。另外一方面，用户如果是游客，不会存在流失问题，所以将游客用户删除。
 
 #### 数据探索
 数据中有225个用户的数据，其中有23.11%的用户流失。
 ![alt text](https://github.com/hanyang7427/Sparkify/blob/master/img/churn_ratio.jpg)
+
 标签是偏态的。
+
 ![alt text](https://github.com/hanyang7427/Sparkify/blob/master/img/churn_dist.jpg)
 
 #### 特征提取
 提取了9个特征，如下
+
 ![alt text](https://github.com/hanyang7427/Sparkify/blob/master/img/feature_head.jpg)
+
 每个特征的分布，如下
+
 ![alt text](https://github.com/hanyang7427/Sparkify/blob/master/img/feature_dist.jpg)
 
 #### 特征预处理
